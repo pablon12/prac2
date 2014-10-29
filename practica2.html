@@ -1,0 +1,105 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	<title>Formulario</title>
+	</head>
+<body>
+<div name= "header">
+<h3> Agregar empleado </h3>
+</div>
+<div>
+	<form action="datos.html" method="POST">
+	<fieldset>
+	<legend>Laboral</legend>
+	<label>Codigo*</label><br />
+	<input type="text" size="40" maxlength="255" name = "codigo" />
+	<br>
+	<br />
+	<label for="txtIngreso" > Fecha de ingreso</label><br/>
+	<input type="text" size="40" maxlength="10" id="txtIngreso" name = "ingreso" />
+	<br>
+	<br/>
+	<label for="txtSs">	Seguridad Social </label><br />
+	<select id= "seguridad" name = "seguridad">
+		<option value="1">Ninguno</option>
+		<option value="1">IMMS</option>
+		<option value="1">ISSTE</option>
+	</select>
+	<br>
+	<br />
+	<label for="txtNumero" > Numero</label><br/>
+	<input name="mensaje" size="31"  />
+	<br>
+	<br/>
+	</fieldset>
+	
+	<br>
+	<br/>
+	
+	<fieldset>
+	<legend> Personal </legend>
+	<label from="txtNombre">Nombre*</label> <br>
+	<input type="text" id="txtNombre"/>
+	<br> <br/>
+	<label from="txtApellidoPaterno"> Apellido Paterno </label> <br>
+	<input type="text" id="txtApellidoPaterno"/>
+	<br> <br/>
+	<label from="txtApellidoMAterno"> Apellido Paterno </label> <br>
+	<input type="text" id="txtApellidoMAterno"/>
+	<br> <br/>
+	<label from="foto">Foto: </label><br>
+	<input type="file" id="foto"/>
+	<br><br/>
+	<label from="sexo">Sexo</label><br>
+	<label>Hombre</label> <input type="radio" id="sexo" /> <label>Mujer</label><input type="radio" id="sexo">
+	<br> <br/>
+	</fieldset>
+	<br><br/>
+	<fieldset>
+	<legend>Nacimiento</legend>
+	<label from="txtFecha">Fecha </label> <br>
+	<input type="text" id="txtFecha" />
+	<br><br/>
+	<label for="selectPais">Pais</label><br/>
+	<select id="selectPais">
+		<option> Mexico</option>
+		<option> EEUUA</option>
+		<option> Canada</option>
+	</select>
+	</fieldset>
+	<br><br/>
+	<fieldset>
+	<legend>Contacto</legend>
+	<label from="txtdom">Nombre*</label> <br>
+	<input type="text" id="txtdom"/>
+	<br> <br/>
+	<label from="txtColonia">Colonia</label> <br>
+	<input type="text" id="txtColonia"/>
+	<br> <br/>
+	<label from="txtpostal">Nombre*</label> <br>
+	<input type="text" id="txtpostal"/>
+	<br> <br/>
+	<label for="selectPais2">Pais</label><br/>
+	<select id="selectPais2">
+		<option> Mexico</option>
+		<option> EEUUA</option>
+		<option> Canada</option>
+	</select>
+	<br>
+	<label from="txtRadio">Radio*</label> <br>
+	<input type="text" id="txtRadio"/>
+	<br> <br/>
+	<label from="txtObservacion">Observaciones</label> <br>
+	<input type="text" id="txtObservacion"/>
+	<br> <br/>
+	</fieldset>
+	
+<input type="submit" name="Ingresar" value="Ingresar" />
+<input type="reset" name="reset" value="Cancelar" />
+</form>
+</div>
+<div>
+	
+</div>
+</body>
+</html>
